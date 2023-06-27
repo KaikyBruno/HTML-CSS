@@ -19,8 +19,7 @@
     color: white;
     padding: 10px;
     font-weight: bolder;
-    position: relative;
-    left: 129vh;
+    
     border-radius: 7px;
 }
 #entrar {
@@ -30,7 +29,7 @@
     padding: 11px;
     border-radius: 7px;
     position: relative;
-    left: 130vh;
+    left: 70vh;
 }
 #entrar:hover {
     cursor: pointer;
@@ -78,4 +77,8 @@ p  {
 #espaçamento {
     margin-top: 200px;
 }
-
+#teste {
+    max-width:1000px;
+    min-width: 300px;
+    margin: 0;
+}
