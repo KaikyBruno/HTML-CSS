@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#icon{
+    color: red;
+    font-weight: bolder;
+    padding: 15px;
+    font-size: 3em;
+    text-shadow: 3px 2px 20px red;
+}
+#idioma {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    font-weight: bolder;
+    position: relative;
+    left: 129vh;
+    border-radius: 7px;
+}
+#entrar {
+    border: none;
+    background-color: red;
+    font-weight: bolder;
+    padding: 11px;
+    border-radius: 7px;
+    position: relative;
+    left: 130vh;
+}
+#entrar:hover {
+    cursor: pointer;
+    background-color: darkred;
+    transition-duration: 0.5s;
+}
+.pointer {
+    cursor: pointer;
+}
+header {
+    background-image: url("imagens/fundo-netflix.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1000px;
+}
+header h1 {
+    text-align: center;
+}
+p  {
+    text-align: center;
+    padding: 15px;
+    font-size: 1.5em;
+}
+#botao {
+    border: 1px solid rgba(255, 255, 255, 0.432);
+    background-color: rgba(0, 0, 0, 0.61);
+    width: 450px;
+    padding: 13px;
+    position: relative;
+    left: 50vh;
+    border-radius: 5px;
+}
+#vamos {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    position: relative;
+    left: 80vh;
+}
+#espaçamento {
+    margin-top: 200px;
+}
+
