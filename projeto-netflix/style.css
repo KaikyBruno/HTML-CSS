@@ -19,8 +19,12 @@
     color: white;
     padding: 10px;
     font-weight: bolder;
-    
     border-radius: 7px;
+}
+#idioma:hover {
+    border: 3px solid white;
+    transition-duration: 0.1s;
+    box-sizing: border-box;
 }
 #entrar {
     border: none;
@@ -28,8 +32,8 @@
     font-weight: bolder;
     padding: 11px;
     border-radius: 7px;
-    position: relative;
-    left: 70vh;
+    text-align: right;
+    
 }
 #entrar:hover {
     cursor: pointer;
@@ -45,7 +49,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 1000px;
+    height: 100vh;
 }
 header h1 {
     text-align: center;
@@ -60,8 +64,8 @@ p  {
     background-color: rgba(0, 0, 0, 0.61);
     width: 450px;
     padding: 13px;
-    position: relative;
-    left: 50vh;
+    display: block;
+    margin: auto;
     border-radius: 5px;
 }
 #vamos {
@@ -71,14 +75,11 @@ p  {
     border: none;
     border-radius: 5px;
     margin-top: 10px;
-    position: relative;
-    left: 80vh;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    
 }
 #espaçamento {
     margin-top: 200px;
-}
-#teste {
-    max-width:1000px;
-    min-width: 300px;
-    margin: 0;
 }
