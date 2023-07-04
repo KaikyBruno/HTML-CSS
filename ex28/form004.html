@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="teste.html" method="get"  autocomplete="on">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" autocomplete="email" required placeholder="Kaikybruno069@gmail.com">
+            </p>
+            <p>
+                <label for="telefone">telefone</label>
+                <input type="tel" name="telefone" id="telefone" autocomplete="tel" required placeholder="44 999667043">
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
