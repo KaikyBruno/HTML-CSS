@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="teste.html" method="POST" autocomplete="on">
+        <p>
+            <label for="estado">Estado</label>
+            <select name="estado" id="estado">
+                
+                <option value="" selected>Escolha</option>
+                <optgroup label="Região Sul">
+                    <option value="pr">Paraná</option>
+                    <option value="sc">Santa Catarina</option>
+                    <option value="rs">Rio Grande Do Sul</option>
+                </optgroup>
+
+                <optgroup label="Região Sudeste">
+                    <option value="sp">São Paulo</option>
+                    <option value="rj">Rio de Janeiro</option>
+                    <option value="mg">Minas Gerais</option>
+                </optgroup>
+                <optgroup label="Região Nordeste">
+                    <option value="ma">Maranhão</option>
+                    <option value="pe">Pernambuco</option>         
+                    <option value="rn">Rio Grande do Norte</option>       
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="profissao">Profissão: </label>
+            <input type="text" name="profissao" id="profissao" list="listprof">
+            <datalist id="listprof">
+                <option >Tecnico de TI</option>
+                <option >Administrador</option>
+                <option >Médico</option>
+                <option >Contabilidade</option>
+                <option >Costureira</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Escreva sua mensagem..."></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
