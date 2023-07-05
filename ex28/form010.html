@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Forulário</h1>
+    <form action="teste.html" method="get">
+        <p>
+            <label for="ano">Em que ano você nasceu? </label>
+            <input type="number" name="ano" id="ano" min="1900" max="2023" required oninput="calcidade()">
+        </p>
+
+        <p>
+            <label for="idade">Em 2023 você irá fazer: </label>
+            <output id="idade">0</output>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+    <script>
+        function calcidade () {
+            var calidade = 2023 - Number(ano.value)
+            idade.innerHTML = `${calidade} anos`
+        }
+    </script>
+</body>
+</html>
