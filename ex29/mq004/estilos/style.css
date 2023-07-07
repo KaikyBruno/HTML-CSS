@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/*Mobile Forst*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.2em;
+    box-sizing: border-box;
+}
+body, html {
+    
+    height: 97vh;
+}
+body {
+    background-image: url("../imagens/back-phone.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+main {
+    background-color: rgba(255, 255, 255, 0.712);
+    width: 90vw;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+h1 {
+    text-align: center;
+
+}
+#celular {
+    display: block;
+    margin: auto;
+}
+#tablet {
+    display: none;
+}
+#impressora {
+    display: none;
+} 
+#computador {
+    display: none;
+}
+#televisao {
+    display: none;
+}
+
