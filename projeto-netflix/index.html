@@ -4,23 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilos/style.css">
 <body>
     <header>
         <nav>
             <div id="teste">
                 <span id="icon">Netflix</span>
-                <button id="idioma" class="pointer">idioma</button>
-                <button id="entrar" class="pointer">Entrar</button>
+                <div id="container">
+                    <button id="idioma" class="pointer">idioma</button>
+                    <button id="entrar" class="pointer">Entrar</button>
+                </div>
             </div>        
         </nav>
         <div id="espaçamento">
             <h1>Filmes, séries e muito mais, sem limites</h1>
             <p>Assista onde quiser. Cancele quando quiser</p>
             <p>Quer assistir? Informe seu email para ou reiniciar sua assinatura.</p>
-            <div><input type="text" name="teste" id="botao" placeholder="Email"></div>
-            <button id="vamos" class="pointer">Vamos lá ></button>
+            <div id="flexbox">
+                <input type="text" name="teste" id="botao" placeholder="Email">
+                <input id="vamos" type="submit" value="Vamos lá >">
+            </div>
         </div>
     </header>
+    <main>
+        <div id="propaganda">
+            <div>
+                <h2>A Netflix que você adora por apenas R$18,90.</h2>
+                <p>Assine o plano Padrão com anúncio.</p>
+                <p><a href="#">Saiba mais  ></a></p>
+            </div>
+        </div>
+        <article id="aonde-assistir">
+            <div id="primeiro">
+                <h1>Aproveite na TV</h1>
+                <p>Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositivos.</p>
+            </div>
+            <div id="segundo">
+                <!-- Imagem no CSS -->
+            </div>
+        </article>
+        <div class="separamento"></div>
+        <article id="assista-qualque-lugar">
+            <div id="primeiro">
+                <!-- Imagem no CSS -->
+            </div>
+            <div id="segundo">
+                <h1>Assista onde quiser</h1>
+                <p>Assista e quantos filmes e séries quise no celular, tablet, laptop e TV</p>
+            </div>
+        </article>
+        <div class="separamento"></div>
+        <article>
+            <div>
+                <h1>Crie perfis para crianças</h1>
+                <p>Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para eles, sem pagar a mais por isso</p>
+            </div>
+            <div>
+                <!-- Imagem no CSS -->
+            </div>
+        </article>
+        <div class="separamento"></div>
+    </main>
 </body>
 </html>

@@ -1,0 +1,197 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#icon{
+    color: red;
+    font-weight: bolder;
+    padding: 15px;
+    font-size: 3em;
+    text-shadow: 3px 2px 20px red;
+    margin: 20px;
+}
+#container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    transform: translate(0px, -50px);
+    padding: 10px;
+}
+#idioma {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.575);
+    color: white;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 7px;
+    margin-right: 20px;
+   
+}
+#idioma:hover {
+    border: 3px solid white;
+    transition-duration: 0.1s;
+    box-sizing: border-box;
+}
+#entrar {
+    border: none;
+    background-color: red;
+    font-weight: bolder;
+    padding: 11px;
+    border-radius: 7px;
+    text-align: right;
+    margin-right: 20px;
+    
+}
+#entrar:hover {
+    cursor: pointer;
+    background-color: darkred;
+    transition-duration: 0.5s;
+}
+.pointer {
+    cursor: pointer;
+}
+header {
+    background-image: url("../imagens/fundo-netflix.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+header h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3em;
+}
+header p  {
+    text-align: center;
+    padding: 15px;
+    font-size: 1.5em;
+}
+#flexbox {
+    display: flex;
+    justify-content: center;
+}
+#botao {
+    border: 1px solid rgba(255, 255, 255, 0.521);
+    background-color: rgba(0, 0, 0, 0.61);
+    width: 35%;
+    height: 40px;
+    padding: 6px;
+    border-radius: 3px;
+}
+#botao::placeholder{
+    color: rgba(255, 255, 255, 0.836);
+}
+#vamos {
+    width: 13%;
+    background-color: rgb(197, 5, 5);
+    color: white;
+    padding: 6px;
+    border: none;
+    margin-left: 10px;
+    border-radius: 3px;
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+#vamos:hover {
+    background-color: rgb(146, 1, 1);
+    cursor: pointer;
+    transition: 0.2s;
+}
+#espaçamento {
+    margin-top: 140px;
+}
+main {
+    height: 100vh;
+    background-color: black;
+}
+#propaganda > div {
+    background-image: linear-gradient(to right, #071033, #0A153F, #5A153B, #5A153B, #5A153B, #0A153F,#071033);
+    margin: auto;
+    width: 75%;
+    height: 150px;
+    transform: translate(0px, -70px);
+}
+#propaganda  h2 {
+    text-align: center;
+    padding-top: 40px;
+    
+}
+#propaganda p {
+    text-align: center;
+}
+#propaganda a {
+    color: #458CF4;
+}
+#aonde-assistir {
+    display: flex;
+    flex-direction:row;
+    height: 60%;
+}
+#aonde-assistir > #primeiro{
+    width: 50%;
+    
+}
+#aonde-assistir > #segundo{
+    width: 50%;
+    background: url(../imagens/tv-para-aondeassistir.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position-y:top ;
+    background-position-x: center;
+    
+    
+}
+#aonde-assistir  h1{
+    color: white;
+    font-size: 3em;
+    font-weight: bolder;
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+#aonde-assistir  p {
+    font-size: 1.5em;
+    padding-left: 30px;
+}
+.separamento {
+    width: 100%;
+    height: 8px;
+    background-color: #232323;
+}
+#assista-qualque-lugar {
+    display: flex;
+    flex-direction:row;
+    height: 60%;
+}
+#assista-qualque-lugar > #primeiro {
+    width: 45%;
+    background: black url(../imagens/aparelhos-para-aondeassistir-transformed.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    margin-top: 50px;
+    
+
+}
+#assista-qualque-lugar > #segundo {
+    background-color: black;
+    width: 55%;
+    margin-top: 50px ;
+}
+#assista-qualque-lugar  h1 {
+    color: white;
+    font-size: 3em;
+    font-weight: bolder;
+    text-align: left;
+    padding-top: 15%;
+    
+}
+#assista-qualque-lugar  p {
+    font-size: 1.5em;
+}
