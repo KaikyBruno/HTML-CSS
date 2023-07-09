@@ -299,7 +299,7 @@ aside {
 }
 aside p {
    color: #B3B3B3;
-    padding: 50px 30px 30px 30px;
+    padding: 50px 30px 30px 40px;
 }
 aside > p > span {
     text-decoration: underline;
@@ -312,9 +312,10 @@ aside ul {
 aside li {
     list-style-type: none;
     padding-left: 40px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     color: #B3B3B3;
     text-decoration: underline;
+    cursor: pointer;
 }
 .idioma-end {
     margin-left: 40px;
