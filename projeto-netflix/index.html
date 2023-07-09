@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix</title>
+    <link rel="shortcut icon" href="imagens/icone-netflix.fav" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
 <body>
     <header>
@@ -20,7 +21,7 @@
             <h1>Filmes, séries e muito mais, sem limites</h1>
             <p>Assista onde quiser. Cancele quando quiser</p>
             <p>Quer assistir? Informe seu email para ou reiniciar sua assinatura.</p>
-            <div id="flexbox">
+            <div class="flexbox">
                 <input type="text" name="teste" id="botao" placeholder="Email">
                 <input id="vamos" type="submit" value="Vamos lá >">
             </div>
@@ -54,16 +55,72 @@
             </div>
         </article>
         <div class="separamento"></div>
-        <article>
-            <div>
+        <article id="para-crianças">
+            <div id="primeiro">
                 <h1>Crie perfis para crianças</h1>
                 <p>Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para eles, sem pagar a mais por isso</p>
             </div>
-            <div>
+            <div id="segundo">
                 <!-- Imagem no CSS -->
             </div>
         </article>
         <div class="separamento"></div>
+        <article id="baixe-series">
+            <div id="primeiro">
+                <!-- Imagem no CSS -->
+            </div>
+            <div id="segundo">
+                <h1>Baixe séries para assistir offline</h1>
+                <p>Disponíveis somente em planos sem anúncios.</p>
+            </div>
+        </article>
+        <div class="separamento"></div>
+
+        <div id="perguntas">
+            <h1>Perguntas frequentes</h1>
+
+            <div><a href="#">O que é Netflix?</a></div>
+            <div><a href="#">Quanto custa a Netflix?</a></div>
+            <div><a href="#">Onde posso assistir?</a></div>
+            <div><a href="#">Como faço para cancelar?</a></div>
+            <div><a href="#">O que eu posso assistir na Netflix?</a></div>
+            <div><a href="#">A netflix é adequada para crianças</a></div>
+
+            <p>Quer Assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
+            <nav class="flexbox" id="flexbox-espaçamento">
+                <input type="text" name="teste" id="botao" placeholder="Email">
+                <input id="vamos" type="submit" value="Vamos lá >">
+            </nav>
+        </div>
+        <div class="separamento"></div>
+
+        <aside>
+            <p>Dúvidas? Ligue <span>0800 591 8942</span></p>
+            <ul>
+                <li>Perguntas frequentes</li>
+                <li>Media Center </li>
+                <li>Resgatar cartão pré-pago</li>
+                <li>Termos de Uso </li>
+                <li>Informações corporativas</li>
+                <li>Avisos legais</li>
+                <li>Central de Ajuda</li>
+                <li>Relações com investidores</li>
+                <li>Comprar cartão pré-pago</li>
+                <li>Privacidade</li>
+                <li>Entre em contato</li>
+                <li>Só na Netflix</li>
+                <li>Conta </li>
+                <li>Carreiras</li>
+                <li>Formas de Assistir </li>
+                <li>Prefêrencias de cookies</li>
+                <li>Teste de velocidade</li>
+            </ul>
+            <button class="idioma-end" id="idioma" class="pointer">idioma</button>
+            <footer>
+                <a href="https://github.com/KaikyBruno" target="_blank">&copy;Kaiky</a>
+            </footer>
+        </aside>
     </main>
+    
 </body>
 </html>

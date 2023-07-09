@@ -5,7 +5,7 @@
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    background-color: black;
+    
 }
 #icon{
     color: red;
@@ -60,7 +60,7 @@ header {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    
     height: 100vh;
 }
 header h1 {
@@ -72,8 +72,9 @@ header p  {
     text-align: center;
     padding: 15px;
     font-size: 1.5em;
+    
 }
-#flexbox {
+.flexbox {
     display: flex;
     justify-content: center;
 }
@@ -117,6 +118,7 @@ main {
     width: 75%;
     height: 150px;
     transform: translate(0px, -70px);
+    box-shadow: inset -13px 12px 20px rgba(0, 0, 0, 0.473);
 }
 #propaganda  h2 {
     text-align: center;
@@ -195,4 +197,140 @@ main {
 }
 #assista-qualque-lugar  p {
     font-size: 1.5em;
+    padding-top: 10px;
+    max-width: 500px;
+}
+#para-crianças {
+    display: flex;
+    justify-content: row;
+    background-color: black;
+    height: 60%;
+}
+#para-crianças  > #primeiro {
+    width: 50%;
+}
+#para-crianças  h1 {
+    color: white;
+    font-size: 3em;
+    font-weight: bolder;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 100px;
+}
+#para-crianças p {
+    font-size: 1.5em;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+#para-crianças > #segundo {
+    width: 60%;
+    background: url(../imagens/para-criança.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+#baixe-series {
+    display: flex;
+    justify-content: row;
+    height: 60%;
+}
+#baixe-series > #primeiro {
+    width: 50%;
+    background:black url(../imagens/baixar-series.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+#baixe-series > #segundo {
+    width: 50%;
+    background-color: black;
+}
+#baixe-series > #segundo > h1 {
+    color: white;
+    font-size: 3em;
+    font-weight: bolder;
+    text-align: left;
+    
+    padding-top: 20%;   
+}
+#baixe-series > #segundo > p {
+    font-size: 1.5em;
+    padding-top: 10px;
+}
+#perguntas {
+    background-color: black;
+}
+#perguntas > h1 {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    font-size: 3em;
+}
+#perguntas > div {
+    background-color: #2D2D2D;
+    margin: auto;
+    width: 91%;
+    margin: 10px;
+    padding: 20px;
+}
+#perguntas > div:hover {
+    background-color: #4E4E4E;
+    transition: 0.4s;
+    cursor: pointer;
+}
+#perguntas  a {
+    text-decoration: none;
+    font-size: 1.4em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.692);
+    margin-top:8px ;
+}
+#perguntas p {
+    text-align: center; 
+    font-size: 1.3em;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+#flexbox-espaçamento {
+    padding-bottom: 70px;
+}
+aside {
+    background-color: black;
+    
+}
+aside p {
+   color: #B3B3B3;
+    padding: 50px 30px 30px 30px;
+}
+aside > p > span {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #B3B3B3;
+}
+aside ul {
+    columns: 3;
+}
+aside li {
+    list-style-type: none;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    color: #B3B3B3;
+    text-decoration: underline;
+}
+.idioma-end {
+    margin-left: 40px;
+    margin-top: 35px;
+}
+footer {
+    color:  #B3B3B3;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+footer > a {
+    color: #B3B3B3;
+    text-decoration: none;
+}
+footer > a:hover {
+    color: white;
+    text-decoration: underline;
 }
