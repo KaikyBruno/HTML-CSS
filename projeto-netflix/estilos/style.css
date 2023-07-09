@@ -22,6 +22,9 @@
     transform: translate(0px, -50px);
     padding: 10px;
 }
+#idioma-mobile {
+    display: none;
+}
 #idioma {
     background-color: transparent;
     border: 1px solid rgba(255, 255, 255, 0.575);
@@ -30,7 +33,6 @@
     font-weight: bolder;
     border-radius: 7px;
     margin-right: 20px;
-   
 }
 #idioma:hover {
     border: 3px solid white;
@@ -56,12 +58,12 @@
     cursor: pointer;
 }
 header {
-    background-image: url("../imagens/fundo-netflix.png");
+    background-image: url(../imagens/fundo-netflix.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     
-    height: 100vh;
+    height: 60vw;
 }
 header h1 {
     text-align: center;
@@ -88,6 +90,9 @@ header p  {
 }
 #botao::placeholder{
     color: rgba(255, 255, 255, 0.836);
+}
+#vamos-mobile {
+    display: none;
 }
 #vamos {
     width: 13%;
@@ -270,19 +275,29 @@ main {
     background-color: #2D2D2D;
     margin: auto;
     width: 91%;
-    margin: 10px;
-    padding: 20px;
+    margin: auto;
+    padding: 25px;
+    margin-bottom: 10px;
+    
 }
 #perguntas > div:hover {
     background-color: #4E4E4E;
     transition: 0.4s;
     cursor: pointer;
 }
+#perguntas i {
+    
+    display: flex;
+    justify-content: flex-end;
+}
 #perguntas  a {
     text-decoration: none;
-    font-size: 1.4em;
+    font-size: 1.5em;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.692);
     margin-top:8px ;
+    display: flex;
+    align-items: center;
+   
 }
 #perguntas p {
     text-align: center; 
@@ -334,4 +349,111 @@ footer > a {
 footer > a:hover {
     color: white;
     text-decoration: underline;
+}
+@media screen and (min-width: 300px) and (max-width: 768px){
+    header {
+        height: 75vh;
+        background-size: cover;
+    }
+    #teste {
+        padding-top: 25px;
+        
+    }
+    #icon {
+        padding-left: 0;
+        font-size: 1.7em;
+    }
+    #idioma {
+        display: none;
+    }
+    #idioma-mobile {
+        display: block;
+        border: 1px solid white;
+        background-color: transparent;
+        padding: 7px;
+        border-radius: 2px;
+        margin-right: 10px;
+        margin-top: 8px;
+        text-align: center;
+        font-weight: bolder;
+    }
+    #idioma-mobile:hover {
+        border: 3px solid white;
+        transition-duration: 0.1s;
+        box-sizing: border-box;
+    }
+    #entrar {
+        margin-top: 7px;
+        padding: 9px;
+        border-radius: 2px;
+    }
+    header #espaçamento {
+        margin-top: 13px;
+    }
+    header h1 {
+        font-size: 1.8em;
+        padding: 0px 20px 0px 20px;
+    }
+    header p {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 1.2em;
+    }
+    header #indentaçao {
+        width: 410px;
+    }
+    #flexbox {
+        display: block;
+        
+    }
+    #botao {
+        width: 390px;
+        margin: auto;
+    }
+    #vamos-mobile {
+        display: block;
+        width: 130px;
+        background-color: rgb(197, 5, 5);
+        color: white;
+        padding: 20px;
+        border: none;
+        margin: auto;
+        margin-top: 5px;
+        border-radius: 3px;
+        font-size: 0.9em;
+        font-weight: bolder;
+    }
+    #vamos-mobile:hover {
+        background-color: rgb(146, 1, 1);
+        cursor: pointer;
+        transition: 0.2s;
+    }
+    #vamos {
+        display: none;
+    }
+    #propaganda {
+        padding-top: 15px;
+    }
+    #propaganda > div{
+        box-shadow: none;
+        background-image: linear-gradient(to bottom, #C70C1D 3%, #56153B,#291948, #0E1947);
+        width: 90%;
+        margin: auto;
+        transform: none;
+        height: 170px;
+    }
+    #propaganda h2  {
+        padding-left: 50px;
+        padding-right: 10px;
+        text-align: left; 
+        font-size: 1.2em;
+    }
+    #propaganda p {
+        text-align: left;
+        padding-left: 50px;
+        padding-top: 10px;
+        font-size: 1em;
+        
+    }
+
 }

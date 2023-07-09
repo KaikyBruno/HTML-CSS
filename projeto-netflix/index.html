@@ -5,26 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix</title>
     <link rel="shortcut icon" href="imagens/icone-netflix.fav" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
+
+    
 <body>
     <header>
         <nav>
             <div id="teste">
                 <span id="icon">Netflix</span>
                 <div id="container">
-                    <button id="idioma" class="pointer">idioma</button>
+                    <select name="idioma" id="idioma">
+                        <option value="pt-br" >Português</option>
+                        <option value="">Inglês</option>
+                    </select>
+                    <select name="idioma-mobile" id="idioma-mobile">
+                        <option value="" selected>PT</option>
+                        <option value="">ENG</option>
+                    </select>
                     <button id="entrar" class="pointer">Entrar</button>
                 </div>
             </div>        
         </nav>
         <div id="espaçamento">
             <h1>Filmes, séries e muito mais, sem limites</h1>
-            <p>Assista onde quiser. Cancele quando quiser</p>
-            <p>Quer assistir? Informe seu email para ou reiniciar sua assinatura.</p>
+            <p>Assista onde quiser. Cancele quando quiser.</p>
+            <p id="indentaçao">Quer assistir? Informe seu email para ou reiniciar sua assinatura.</p>
             <div class="flexbox">
                 <input type="text" name="teste" id="botao" placeholder="Email">
                 <input id="vamos" type="submit" value="Vamos lá >">
             </div>
+            <div><input type="submit" value="Vamos lá >" id="vamos-mobile"></div>
         </div>
     </header>
     <main>
@@ -79,12 +91,13 @@
         <div id="perguntas">
             <h1>Perguntas frequentes</h1>
 
-            <div><a href="#">O que é Netflix?</a></div>
+            <div><a href="#">O que é Netflix? </a> </div>
             <div><a href="#">Quanto custa a Netflix?</a></div>
-            <div><a href="#">Onde posso assistir?</a></div>
-            <div><a href="#">Como faço para cancelar?</a></div>
+            <div><a href="#">Onde posso assistir? </a></div>
+            <div><a href="#">Como faço para cancelar? </a></div>
             <div><a href="#">O que eu posso assistir na Netflix?</a></div>
             <div><a href="#">A netflix é adequada para crianças</a></div>
+            
 
             <p>Quer Assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
             <nav class="flexbox" id="flexbox-espaçamento">
