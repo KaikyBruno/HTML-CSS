@@ -92,6 +92,13 @@
                 <h1>Baixe séries para assistir offline</h1>
                 <p>Disponíveis somente em planos sem anúncios.</p>
             </div>
+            <div id="primeiro-mobile">
+                <h1>Baixe séries para assistir offline</h1>
+                <p>Disponíveis somente em planos sem anúncios.</p>
+            </div>
+            <div id="segundo-mobile">
+                <!-- Imagem no CSS -->
+            </div>
         </article>
         <div class="separamento"></div>
 
@@ -107,9 +114,12 @@
             
 
             <p>Quer Assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
-            <nav class="flexbox" id="flexbox-espaçamento">
-                <input type="text" name="teste" id="botao" placeholder="Email">
-                <input id="vamos" type="submit" value="Vamos lá >">
+            <nav class="block" class="flexbox" id="flexbox-espaçamento" >
+                <div class="flexbox">
+                    <input type="text" name="teste" id="botao" placeholder="Email">
+                    <input id="vamos" type="submit" value="Vamos lá >">
+                </div>
+                <div id="espaçamento1"><input type="submit" value="Vamos lá >" id="vamos-mobile" class="vamos"></div>
             </nav>
         </div>
         <div class="separamento"></div>
@@ -135,7 +145,19 @@
                 <li>Prefêrencias de cookies</li>
                 <li>Teste de velocidade</li>
             </ul>
-            <button class="idioma-end" id="idioma" class="pointer">idioma</button>
+            <div class="espaçamento2">
+                <select  name="idioma" id="idioma">
+                    <option value="pt-br" >Português</option>
+                    <option value="">Inglês</option>
+                </select>
+                
+            </div>
+            <div id="espaçamento-mobile">
+                <select name="idioma-mobile" id="idioma-mobile">
+                    <option value="" selected>PT</option>
+                    <option value="">ENG</option>
+                </select>
+            </div>
             <footer>
                 <a href="https://github.com/KaikyBruno" target="_blank">&copy;Kaiky</a>
             </footer>
