@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <h1>FreeCodeCamp Survey Form</h1>
+    <p>thank you for talking the time to help us improve the platform</p>
+    <main>
+        <form action="teste.html" autocomplete="on">
+            <div class="group-botao">
+                <label class="group-label" for="nome">Name</label>
+                <input type="text" name="nome" id="nome" class="botao" placeholder="Enter your name" autocomplete="off" required>
+            </div>
+            <div class="group-botao">
+                <label class="group-label" for="email">Email</label>
+                <input type="email" name="email" id="email" class="botao" autocomplete="email" placeholder="Enter your Email" required>
+            </div>
+            <div class="group-botao">
+                <label for="idade" class="group-label"> Age (optional)</label>
+                <input type="number" class="botao" name="idade" id="idade" min="10" max="100" placeholder="Age">
+            </div>
+            <div class="group-botao">
+                <label class="group-label" for="#">Which option best describes your current role?</label>
+                <select class="botao" name="oque-faz" id="oque-faz">
+                    <fieldset>
+                        <option selected>Select current role</option>
+                        <option value="" >Student</option>
+                        <option value="">Full Time Job</option>
+                        <option value="">Full Time Leaner</option>
+                        <option value="">Prefer not to say</option>
+                        <option value="">Other</option>
+                    </fieldset>
+                </select>
+            </div>
+            <div class="group-botao">
+                <label class="group-label" for="#">Would you recommend freeCodeCamp to a friend?
+                </label>
+                
+                <label class="label-radio" for="friend1">
+                    <input type="radio" class="radio" name="friend" id="friend1"> Definitely
+                </label>
+                
+                <label class="label-radio" for="friend2">
+                    <input type="radio" class="radio" name="friend" id="friend2">
+                    Maybe
+                </label>
+        
+                <label class="label-radio" for="friend3">
+                    <input type="radio" class="radio" name="friend" id="friend3">
+                    Not Sure
+                </label>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
